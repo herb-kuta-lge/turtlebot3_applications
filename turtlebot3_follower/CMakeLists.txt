@@ -44,7 +44,7 @@ include_directories(
 ################################################################################
 # Install
 ################################################################################
-install(PROGRAMS
+install(PROGRAMS config/add_comment config/add_data config/clf config/clf
   nodes/follower
   nodes/laser_subscriber
   nodes/ploting
